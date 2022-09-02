@@ -3,7 +3,7 @@
 # Running under: Windows 10 x64 (build 16299)
 #
 # Relevant packages:
-# treateffect_0.3.1 -- devtools::install_github("anthonydn/treateffect@075602b")
+# treateffect_0.3.1 -- devtools::install_github("anthonydn/treateffect@9dd575f")
 # lubridate_1.7.8
 # emmeans_1.4.6
 # nlme_3.1-147
@@ -22,7 +22,7 @@ theme_te()
 
 jorn15 <- read_csv("jornada_tower_summer_nutrients.csv") %>%
   mutate(Type = ordered(Type), doy = `Day of Year`, plot_num = factor(plot_num),
-    soil_moisture = (1 - percent_dry_mass) * 100)
+    soil_moisture = gravimetric_water * 100)
 
 jorn15_scale <- function() scale_x_continuous(
   breaks = c(155, 168, 175, 182, 189, 196),
@@ -99,7 +99,7 @@ plotRR(jorn15dw.te)
 
 #gravimetric soil moisture
 treateffect(jorn15, soil_moisture ~ Type, times = "doy",
-    block = "plot_num", pool_variance = c("doy", "Type")) %>%
+    block = "plot_num", pool_variance = c("doy", "Type")) %>% 
 plot(dodge = 2) +
   scale_x_continuous(
     breaks = c(121, 155, 168, 175, 182, 189, 196),
