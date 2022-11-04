@@ -5,11 +5,11 @@ Type	cover type. either interspace (bare) or under canopy of creosote bush or me
 plot_num	plot number
 Sample Number	soil core sample ID number
 PHOS	Phosphatase activity, nmol hr-1 g-1 soil (McLaren lab fluorescent enzyme assay protocol)
-BGLUC	Beta glucosidase activity, nmol hr-1 g-1 soil (NREL fluorescent enzyme assay protocol)
-NAG	N-acetyl-beta-glucosaminidase activity, nmol hr-1 g-1 soil (NREL fluorescent enzyme assay protocol)
-CELLOBIO	Cellobiohydrolase activity, nmol hr-1 g-1 soil (NREL fluorescent enzyme assay protocol)
-XYLO	Xylosidase activity, nmol hr-1 g-1 soil (NREL fluorescent enzyme assay protocol)
-AGLUC	Alpha glucosidase activity, nmol hr-1 g-1 soil (NREL fluorescent enzyme assay protocol)
+BGLUC	Beta glucosidase activity, nmol hr-1 g-1 soil (McLaren lab fluorescent enzyme assay protocol)
+NAG	N-acetyl-beta-glucosaminidase activity, nmol hr-1 g-1 soil (McLaren lab fluorescent enzyme assay protocol)
+CELLOBIO	Cellobiohydrolase activity, nmol hr-1 g-1 soil (McLaren lab fluorescent enzyme assay protocol)
+XYLO	Xylosidase activity, nmol hr-1 g-1 soil (McLaren lab fluorescent enzyme assay protocol)
+AGLUC	Alpha glucosidase activity, nmol hr-1 g-1 soil (McLaren lab fluorescent enzyme assay protocol)
 Perox	Peroxidase activity. nmol g-1 soil hr-1 L-DOPA protocol)
 PhenolOx	Phenoloxidase activity (aka laccase). nmol g-1 soil hr-1 L-DOPA protocol)
 percent_dry_mass	(g dry soil / g wet soil) * 100
