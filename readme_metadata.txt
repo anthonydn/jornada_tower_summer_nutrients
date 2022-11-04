@@ -18,7 +18,7 @@ no3	µg NO3-N g-1 soil from 0.5M K2SO4 extractions using microplate assay
 po4	µg PO4-P g-1 soil from 0.5M K2SO4 extractions using microplate assay
 MBC	microbial biomass C, ug C g-1 soil, measured in K2SO4 extract (same as above nutrient data) on Shimadzu analyzer
 MBN	microbial biomass N, ug N g-1 soil, measured in K2SO4 extract (same as above nutrient data) on Shimadzu analyzer
-percentC	Soil percent organic carbon after acid fumigation for decarbonation. Measured on Elementar elemental analyzer in Ben Brunner's laboratory
-percentN	Soil percent organic nitrogen after acid fumigation for decarbonation. Measured on Elementar elemental analyzer in Ben Brunner's laboratory
+percentC	Soil percent organic carbon after acid fumigation for decarbonation. Measured on Elementar elemental analyzer in Brunner laboratory
+percentN	Soil percent organic nitrogen after acid fumigation for decarbonation. Measured on Elementar elemental analyzer in Brunner laboratory
 CN_ratio	percentC / percentN
-respiration	µmol CO2 g-1 soil hr-1 (measured in field with PP Systems EGM-4)
+respiration	µmol CO2 m-2 s-1 (measured in field with PP Systems EGM-4)
